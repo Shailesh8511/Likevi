@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #405de6;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.download-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#reel-url {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#download-btn {
+    background-color: #405de6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#download-btn:hover {
+    background-color: #3a4ed5;
+}
+
+.steps {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+}
+
+.ad-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.ad {
+    background: #eee;
+    padding: 2rem;
+    border: 1px dashed #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ddd;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    #reel-url {
+        width: 70%;
+    }
+}
